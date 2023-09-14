@@ -1,9 +1,13 @@
+import { LoadCourses } from "./components/Course/LoadCourses"
+import { Header } from "./components/Header/Header"
+
 function App() {
 
   return (
-    <>
-      <h1>BismiAllah</h1>
-    </>
+    <div className="container mx-auto">
+      <Header></Header>
+      <LoadCourses></LoadCourses>
+    </div>
   )
 }
 

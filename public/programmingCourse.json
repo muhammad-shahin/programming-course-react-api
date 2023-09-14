@@ -1,75 +1,74 @@
 [
-    {
-      "id": 1,
-      "cover_image": "https://ibb.co/vw73Kwf",
-      "course_name": "Introduction to C Programming",
-      "course_description": "Learn the fundamentals of C programming language.",
-      "price": "2900",
-      "credit": "2"
-    },
-    {
-      "id": 2,
-      "cover_image": "https://ibb.co/JpmQtGn",
-      "course_name": "Introduction to Algorithms",
-      "course_description": "Explore the basics of algorithms and problem-solving.",
-      "price": "3150",
-      "credit": "3"
-    },
-    {
-      "id": 3,
-      "cover_image": "https://ibb.co/Jc879Bc",
-      "course_name": "Introduction to C++ for DSA",
-      "course_description": "Learn C++ programming for data structures and algorithms.",
-      "price": "3250",
-      "credit": "4"
-    },
-    {
-      "id": 4,
-      "cover_image": "https://ibb.co/1MRf9gQ",
-      "course_name": "Basic Data Structures",
-      "course_description": "Build a strong foundation in essential data structures.",
-      "price": "3100",
-      "credit": "2"
-    },
-    {
-      "id": 5,
-      "cover_image": "https://ibb.co/4fDKz5W",
-      "course_name": "Introduction to OOP Python",
-      "course_description": "Get started with object-oriented programming in Python.",
-      "price": "3350",
-      "credit": "3"
-    },
-    {
-      "id": 6,
-      "cover_image": "https://ibb.co/GRjzkgM",
-      "course_name": "Software Engineering",
-      "course_description": "Learn software engineering principles and best practices.",
-      "price": "3400",
-      "credit": "4"
-    },
-    {
-      "id": 7,
-      "cover_image": "https://ibb.co/6B4yRHn",
-      "course_name": "AWS, Cloud Computing",
-      "course_description": "Explore cloud computing with Amazon Web Services.",
-      "price": "3500",
-      "credit": "5"
-    },
-    {
-      "id": 8,
-      "cover_image": "https://ibb.co/wLk6tPX",
-      "course_name": "Database (MySQL)",
-      "course_description": "Learn database management with MySQL.",
-      "price": "2950",
-      "credit": "2"
-    },
-    {
-      "id": 9,
-      "cover_image": "https://ibb.co/Jc879Bc",
-      "course_name": "Problem-Solving Part",
-      "course_description": "Enhance your problem-solving skills.",
-      "price": "3050",
-      "credit": "3"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/FxS5jxc/Rectangle-2-2.png",
+    "course_name": "Introduction to C Programming",
+    "course_description": "Learn the fundamentals of C programming language and build a strong foundation for a successful career in software development.",
+    "price": "2900",
+    "credit": "2"
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co/YdPZQ12/Rectangle-2-3.png",
+    "course_name": "Introduction to Algorithms",
+    "course_description": "Explore the basics of algorithms, problem-solving, and algorithmic thinking in this comprehensive course.",
+    "price": "3150",
+    "credit": "3"
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co/Rgt0qvg/Rectangle-2-4.png",
+    "course_name": "Introduction to C++ for DSA",
+    "course_description": "Learn C++ programming for data structures and algorithms, and gain a competitive edge in your coding journey.",
+    "price": "3250",
+    "credit": "4"
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co/KDVj9Ph/Rectangle-3.png",
+    "course_name": "Basic Data Structures",
+    "course_description": "Build a strong foundation in essential data structures, mastering the tools every programmer needs.",
+    "price": "3100",
+    "credit": "2"
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co/H2MB6k7/Rectangle-2.png",
+    "course_name": "Introduction to OOP Python",
+    "course_description": "Get started with object-oriented programming in Python and unlock endless possibilities in software development.",
+    "price": "3350",
+    "credit": "3"
+  },
+  {
+    "id": 6,
+    "cover_image": "https://i.ibb.co/zZwqbK2/Rectangle-2-5.png",
+    "course_name": "Software Engineering",
+    "course_description": "Learn software engineering principles, best practices, and industry insights to excel in the field.",
+    "price": "3400",
+    "credit": "4"
+  },
+  {
+    "id": 7,
+    "cover_image": "https://i.ibb.co/FVBhb5x/Rectangle-3-1.png",
+    "course_name": "AWS, Cloud Computing",
+    "course_description": "Explore cloud computing with Amazon Web Services and harness the power of the cloud for your projects.",
+    "price": "3500",
+    "credit": "5"
+  },
+  {
+    "id": 8,
+    "cover_image": "https://i.ibb.co/hM6804j/Rectangle-2-1.png",
+    "course_name": "Database (MySQL)",
+    "course_description": "Learn database management with MySQL and become proficient in managing data for various applications.",
+    "price": "2950",
+    "credit": "2"
+  },
+  {
+    "id": 9,
+    "cover_image": "https://i.ibb.co/m0sdX5b/Rectangle-2-6.png",
+    "course_name": "Problem-Solving Part",
+    "course_description": "Enhance your problem-solving skills with this course, where you'll tackle real-world challenges and develop innovative solutions.",
+    "price": "3050",
+    "credit": "3"
+  }
+]
