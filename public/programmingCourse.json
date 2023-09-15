@@ -5,7 +5,7 @@
     "course_name": "Introduction to C Programming",
     "course_description": "Learn the fundamentals of C programming language and build a strong foundation for a successful career in software development.",
     "price": "2900",
-    "credit": "2"
+    "credit": "5"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "course_name": "Introduction to C++ for DSA",
     "course_description": "Learn C++ programming for data structures and algorithms, and gain a competitive edge in your coding journey.",
     "price": "3250",
-    "credit": "4"
+    "credit": "5"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
     "course_name": "Database (MySQL)",
     "course_description": "Learn database management with MySQL and become proficient in managing data for various applications.",
     "price": "2950",
-    "credit": "2"
+    "credit": "5"
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "course_name": "Problem-Solving Part",
     "course_description": "Enhance your problem-solving skills with this course, where you'll tackle real-world challenges and develop innovative solutions.",
     "price": "3050",
-    "credit": "3"
+    "credit": "4"
   }
 ]

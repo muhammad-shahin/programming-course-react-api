@@ -5,6 +5,9 @@ import { SidebarContainer } from "../Sidebar/SidebarContainer";
 export const LoadCourses = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourses, setSelectedCourses] = useState([]);
+  const [totalCredit, setTotalCredit] = useState(0);
+  const [remainingCredit, setRemainingCredit] = useState(20);
+  const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
     fetch("programmingCourse.json")
@@ -17,8 +20,18 @@ export const LoadCourses = () => {
     if (selectedCourses.includes(course)) {
       alert("This Course is Already Selected");
     } else {
-      const updateSelectedCourse = [...selectedCourses, course];
-      setSelectedCourses(updateSelectedCourse);
+      const updateRemaining = remainingCredit - course.credit;
+      const updateTotalCredit = totalCredit + parseInt(course.credit);
+      const updateTotalPrice = totalPrice + parseInt(course.price);
+      if (updateRemaining < 0) {
+        alert("You have reached credit limit");
+      } else {
+        const updateSelectedCourse = [...selectedCourses, course];
+        setSelectedCourses(updateSelectedCourse);
+        setRemainingCredit(updateRemaining);
+        setTotalCredit(updateTotalCredit);
+        setTotalPrice(updateTotalPrice);
+      }
     }
   };
 
@@ -34,7 +47,12 @@ export const LoadCourses = () => {
         ))}
       </div>
       <div className="lg:relative w-[70%]">
-        <SidebarContainer selectedCourses={selectedCourses}></SidebarContainer>
+        <SidebarContainer
+          selectedCourses={selectedCourses}
+          remainingCredit={remainingCredit}
+          totalCredit={totalCredit}
+          totalPrice={totalPrice}
+        ></SidebarContainer>
       </div>
     </section>
   );
