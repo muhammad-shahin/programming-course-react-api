@@ -7,7 +7,6 @@ const Toast = ({
   secondaryColor,
   seekBarColor,
   message,
-  isVisible
 }) => {
   const primaryBg = {
     backgroundColor: primaryColor,
@@ -18,10 +17,6 @@ const Toast = ({
   const seekBarStyle = {
     backgroundColor: seekBarColor,
   };
-
-  if (!isVisible) {
-    return null; 
-  }
 
   return (
     <div
@@ -43,12 +38,11 @@ const Toast = ({
 };
 
 Toast.propTypes = {
-  icon: PropTypes.string, // Remove the isRequired for the default icon
+  icon: PropTypes.string,
   primaryColor: PropTypes.string.isRequired,
   secondaryColor: PropTypes.string.isRequired,
   seekBarColor: PropTypes.string.isRequired,
   message: PropTypes.string.isRequired,
-  isVisible: PropTypes.bool.isRequired,
 };
 
 export default Toast;

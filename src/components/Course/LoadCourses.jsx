@@ -11,7 +11,7 @@ export const LoadCourses = () => {
   const [totalCredit, setTotalCredit] = useState(0);
   const [remainingCredit, setRemainingCredit] = useState(20);
   const [totalPrice, setTotalPrice] = useState(0);
-  const [showToast, setShowToast] = useState(false);
+  const [showToast, setShowToast] = useState([]);
   const [isModalOpen, setShowModal] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalMessage, setModalMessage] = useState("");
@@ -46,10 +46,17 @@ export const LoadCourses = () => {
         setRemainingCredit(updateRemaining);
         setTotalCredit(updateTotalCredit);
         setTotalPrice(updateTotalPrice);
-        setShowToast(!showToast);
-        // setTimeout(() => {
-        //   setShowToast(false);
-        // }, 3500);
+        setShowToast([
+          ...showToast,
+          <Toast
+            icon={infoIcon}
+            primaryColor={"#5EA2C4"}
+            secondaryColor={"#6677a5"}
+            seekBarColor={"blue"}
+            message={"Course Added In Cart"}
+            key={showToast.length}
+          ></Toast>,
+        ]);
       }
     }
   };
@@ -77,20 +84,21 @@ export const LoadCourses = () => {
           totalPrice={totalPrice}
         ></SidebarContainer>
       </div>
-      <Toast
+      {/* <Toast
         icon={infoIcon}
         primaryColor={"#5EA2C4"}
         secondaryColor={"#6677a5"}
         seekBarColor={"blue"}
         message={"Course Added In Cart"}
         isVisible={showToast}
-      ></Toast>
+      ></Toast> */}
       <Modal
         modalStatus={isModalOpen}
         title={modalTitle}
         message={modalMessage}
         handleModalCloseBtn={handleModalCloseBtn}
       ></Modal>
+      {showToast.map((show) => show)}
     </section>
   );
 };
