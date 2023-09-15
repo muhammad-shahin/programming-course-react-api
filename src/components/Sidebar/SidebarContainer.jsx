@@ -6,7 +6,7 @@ export const SidebarContainer = ({ selectedCourses, remainingCredit, totalCredit
     let count = 0;
 
   return (
-    <div className="lg:sticky top-10 right-0 bg-white rounded-lg p-6 h-fit text-left space-y-4 py-10">
+    <div className="lg:sticky lg:top-10 lg:right-0 bg-white rounded-lg p-6 h-fit text-left space-y-4 py-10">
       <h1 className="text-[#2F80ED] text-[18px] font-bold">
         Credit Hour Remaining {remainingCredit} hr
       </h1>
