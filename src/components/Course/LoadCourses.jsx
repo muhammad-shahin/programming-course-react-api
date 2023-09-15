@@ -84,14 +84,6 @@ export const LoadCourses = () => {
           totalPrice={totalPrice}
         ></SidebarContainer>
       </div>
-      {/* <Toast
-        icon={infoIcon}
-        primaryColor={"#5EA2C4"}
-        secondaryColor={"#6677a5"}
-        seekBarColor={"blue"}
-        message={"Course Added In Cart"}
-        isVisible={showToast}
-      ></Toast> */}
       <Modal
         modalStatus={isModalOpen}
         title={modalTitle}
