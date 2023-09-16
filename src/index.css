@@ -4,6 +4,9 @@
 
 body {
   background: #dad2d299;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* seek bar style for toast */
 .seek-bar {
@@ -84,5 +87,5 @@ body {
   opacity: 0.7;
 }
 #modal {
-  overflow: visible;
+  backdrop-filter: blur(10px);
 }
